@@ -25,6 +25,18 @@ public class Maximum {
         }
         return maximumFloat;
     }
+    String maximumString;
+
+    public String getMaximum(String a, String b, String c) {
+        maximumString=a;
+        if (b.compareTo(maximumString) > 0) {
+            maximumString = b;
+        }
+        if (c.compareTo(maximumString)>0) {
+            maximumString = c;
+        }
+        return maximumString;
+    }
 
 
 }

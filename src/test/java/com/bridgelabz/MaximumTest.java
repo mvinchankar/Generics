@@ -17,4 +17,10 @@ public class MaximumTest {
         Float result= maximum.getMaximum(2.52f,1.41f,0.81f);
         Assert.assertEquals(Float.valueOf(2.52f), result);
     }
+    @Test
+    public void when_Entered_String_Should_Return_Maximum() {
+        Maximum maximum=new Maximum();
+        String result= maximum.getMaximum("Mangesh","Mahendra","Akshay");
+        Assert.assertEquals("Mangesh", result);
+    }
 }
