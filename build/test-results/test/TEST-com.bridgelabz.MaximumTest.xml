@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:48:15" hostname="FH400" time="0.011">
+<testsuite name="com.bridgelabz.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:53:04" hostname="FH400" time="0.009">
   <properties/>
-  <testcase name="when_Entered_Should_Return_Maximum" classname="com.bridgelabz.MaximumTest" time="0.011"/>
+  <testcase name="when_Entered_Float_Should_Return_Maximum" classname="com.bridgelabz.MaximumTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
