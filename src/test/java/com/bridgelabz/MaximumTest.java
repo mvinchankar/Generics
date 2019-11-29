@@ -29,5 +29,18 @@ public class MaximumTest {
         Object maximum=max.testMax();
         Assert.assertEquals((Integer)2,maximum);
     }
+    @Test
+    public void check_IntegerNumbers_FindMaximumNumber() {
+
+        NewMaximum findMaximumNumber = new NewMaximum<Integer>(1,4,3,2,6,2,3);
+        Assert.assertEquals((Integer) 6, findMaximumNumber.check());
+    }
+    @Test
+    public void check_Strings_FindMaximum() {
+
+        NewMaximum findMaximumNumber = new NewMaximum<String>("1","4","3","2","6");
+        Assert.assertEquals((String) "6", findMaximumNumber.check());
+    }
+
 
 }

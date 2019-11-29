@@ -12,24 +12,26 @@ public class Maximum<T extends Comparable> {
     }
 
 
-    public static  <T extends Comparable> T testMax(T a, T b, T c) {
-        T maximum = a;
-        if (b.compareTo(maximum) > 0) {
-            maximum = b;
+    public static <T extends Comparable> T testMax(T maximumT, T maximumU, T maximumV) {
+        T maximum = maximumT;
+        if (maximumU.compareTo(maximum) > 0) {
+            maximum = maximumU;
         }
-        if (c.compareTo(maximum) > 0) {
-            maximum =  c;
+        if (maximumV.compareTo(maximum) > 0) {
+            maximum = maximumV;
         }
         printMax(maximum);
         return maximum;
     }
-    public <T> T testMax(){
-        T maxElememt= (T) testMax(this.maximumT, this.maximumU, this.maximumV);
+
+    public <T> T testMax() {
+        T maxElememt = (T) testMax(this.maximumT, this.maximumU, this.maximumV);
         printMax(maxElememt);
         return maxElememt;
 
     }
-    private static <T> void printMax(T maximumValue){
+
+    private static <T> void printMax(T maximumValue) {
         System.out.println(maximumValue);
     }
 }

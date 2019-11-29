@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T12:33:54" hostname="FH400" time="0.008">
+<testsuite name="com.bridgelabz.MaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T05:59:53" hostname="FH400" time="0.01">
   <properties/>
-  <testcase name="when_Entered_Should_Return_Maximum_With_PrintMax" classname="com.bridgelabz.MaximumTest" time="0.008"/>
-  <system-out><![CDATA[2
-2
+  <testcase name="check_Strings_FindMaximum" classname="com.bridgelabz.MaximumTest" time="0.01"/>
+  <system-out><![CDATA[
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
